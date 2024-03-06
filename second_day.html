@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="document.getElementById('demo').innerHTML=Date()">Time</button><!--change the inner html of id demo-->
+    <p id="demo"></p><!--changes are applied on this-->
+    <button onclick="this.innerHTML=Date()"></button><!--change its own html-->
+    <button onmouseover="this.innerHTML='hello bro!!!' " onmouseout="this.innerHTML=''"></button>
+</body>
+</html>
